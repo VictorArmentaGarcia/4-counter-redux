@@ -29,3 +29,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 Considerar que es un proyecto para revisar redux
+https://ngrx.io/
+ng add @ngrx/store@latest
