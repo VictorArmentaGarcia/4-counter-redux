@@ -22,12 +22,12 @@ export class CounterComponent {
 
   incrementar() : void{
     //this.counter++;
-    this.store.dispatch(increment());
+    this.store.dispatch(increment({ add: 3 }));
   }
 
   decrementar(): void {
     //this.counter--;
-    this.store.dispatch(decrement());
+    this.store.dispatch(decrement( {remove: 2 } ));
   } 
 
   reset(): void {

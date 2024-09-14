@@ -30,4 +30,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Considerar que es un proyecto para revisar redux
 https://ngrx.io/
+
+
+store
 ng add @ngrx/store@latest
+
+redux en navegador
+ng add @ngrx/store-devtools@latest
